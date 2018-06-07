@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <title>Rock, Paper and Scissors Game</title>
+</head>
+<body>
+<div>
+<div>
+<h1 style="text-align: center"><font size="10">Rock, Paper and Scissors</font></h1>
+    <p style="text-align: center"><font size="5">Make you choice:</font></p>
+</div>
+<div style="text-align: center">
+            <button type="button" class="btn btn-outline-danger" id="Rock" onclick="getValue(this.id)">ROCK</button>
+            <button type="button" class="btn btn-outline-danger" id="Paper" onclick="getValue(this.id)">PAPER</button>
+            <button type="button" class="btn btn-outline-danger" id="Scissor" onclick="getValue(this.id)">SCISSOR</button>
+</div>
+    <div id ="Start"></div>
+<script>
+    function getValue(value_id) {
+    var computerChoice = Math.random();
+    if(computerChoice < 0.4)
+    {
+        computerChoice = "Rock";
+    }
+    else if (computerChoice <=0.7)
+        {
+            computerChoice="Paper";
+        }
+        else
+    {
+        computerChoice="Scissor";
+    }
+
+
+    if(computerChoice==value_id)
+    {
+        document.getElementById("Start").innerHTML = "Computer choice: " + computerChoice + ". "+"Your Choice: " + value_id +". "+ "RESULT: TIE";
+
+    }
+    else if (computerChoice=="Rock" && value_id =="Paper")
+    {
+        document.getElementById("Start").innerHTML = "Computer choice: " + computerChoice + ". "+"Your Choice: " + value_id +". "+"COMPUTER LOSE. YOU WON!";
+
+    }
+    else if(computerChoice=="Rock" && value_id =="Scissor")
+    {
+        document.getElementById("Start").innerHTML = "Computer choice: " + computerChoice + ". "+"Your Choice: " + value_id +". "+"COMPUTER WON. YOU LOSE!";
+
+    }
+    else if (computerChoice=="Paper" && value_id =="Scissor")
+    {
+        document.getElementById("Start").innerHTML= "Computer choice: " + computerChoice + ". "+"Your Choice: " + value_id +". "+"COMPUTER LOSE. YOU WON!";
+
+    }
+    else if (computerChoice=="Paper" && value_id =="Rock")
+    {
+        document.getElementById("Start").innerHTML = "Computer choice: " + computerChoice + ". "+"Your Choice: " + value_id +". "+"COMPUTER WON. YOU LOSE!";
+
+    }
+    else if (computerChoice=="Scissor" && value_id =="Rock")
+    {
+        document.getElementById("Start").innerHTML = "Computer choice: " + computerChoice + ". "+"Your Choice: " + value_id +". "+"COMPUTER LOSE. YOU WON!";
+
+    }
+    else if (computerChoice=="Scissor" && value_id =="Paper")
+    {
+        document.getElementById("Start").innerHTML = "Computer choice: " + computerChoice + ". "+"Your Choice: " + value_id +". "+"COMPUTER WON. YOU LOSE!";
+    }
+    }
+</script>
+</div>
+</body>
+</html>
