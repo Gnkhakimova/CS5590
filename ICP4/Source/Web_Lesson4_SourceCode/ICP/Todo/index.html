@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="angularTodo">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo in Angular.js</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,400italic,500' rel='stylesheet'
+          type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
+    <script src="todo.js"></script> // 1. write JS (controller) code in "todo.js" to work with todo list
+</head>
+
+<body ng-controller="angularTodoC">
+<!--// 2. write html(view) code to display the todo list-->
+<div class="container">
+    <h1>Todo List</h1>
+    <div class="todo-list">
+        <form class="todo-list__head" ng-submit="submitNewItem(item)">
+            <input type="text" class="todo-list-head__text-input" placeholder="Please enter a new task" ng-model="item.name">
+            <button type="submit" class="toto-list-head__submit"><i class="fas fa-user-plus"></i></button>
+        </form>
+        <ul class="todo-list__items">
+            <li ng-repeat="item in items" ng-class="{completed: item.completed}">
+                <span>{{$index + 1}}</span>
+                {{item.name}}
+                <button class="todo-list-item__complete" ng-click="completeItem($index)"><i class="far fa-check-circle"></i></button>
+                <button class="todo-list-item__trash" ng-click="deleteItem($index)"><i class="fas fa-trash"></i></button>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

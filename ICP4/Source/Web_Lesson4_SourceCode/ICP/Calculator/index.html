@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="CalculatorApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="calculator.js"></script>
+    <!--// 1. write JS (controller) code in "calculator.js" to work with calculator-->
+</head>
+<body ng-controller="CalculatorController">
+<!--// 2. write html(view) code to display the todo list-->
+
+<div>
+
+    <div class="calcbody">
+        <!-- Calculator Display -->
+        <div class="border" >
+
+            <!-- Display is bound to scope variables in app.js -->
+            <p class="result" name="input" ng-bind="input"></p>
+            <p class="result" name="result" ng-bind="result"></p>
+
+        </div>
+
+<div class="calcbuttons">
+    <button name="btn1" class="numberbtn" value="1" ng-click='update(1)'>1</button>
+    <button name="btn2" class="numberbtn" value="2" ng-click='update(2)'>2</button>
+    <button name="btn3" class="numberbtn" value="3" ng-click='update(3)'>3</button>
+    <button name="btnDev" class="operbtn" ng-click='update(dev)' ng-bind="dev"> </button>
+    <br>
+    <button name="btn4" class="numberbtn" value="4" ng-click='update(4)'>4</button>
+    <button name="btn5" class="numberbtn" value="5" ng-click='update(5)'>5</button>
+    <button name="btn6" class="numberbtn" value="6" ng-click='update(6)'>6</button>
+    <button name="btnMultp" class="operbtn" ng-click='update(mult)' ng-bind="mult"> </button>
+    <br>
+    <button name="btn7" class="numberbtn" value="7" ng-click='update(7)'>7</button>
+    <button name="btn8" class="numberbtn" value="8" ng-click='update(8)'>8</button>
+    <button name="btn9" class="numberbtn" value="9" ng-click='update(9)'>9</button>
+    <button name="btnAdd" class="operbtn" ng-click='update(add)' ng-bind="add"> </button>
+    <br>
+    <button name="btn0" class="numberbtn" value="0" ng-click='update(0)'>0</button>
+    <button name="btnClear" class="operbtn" ng-click='clear(input)'> C </button>
+    <button name="btnCalc" class="operbtn" ng-click='calculate(input)'> = </button>
+    <button name="btnSub" class="operbtn" ng-click='update(subs)' ng-bind="subs"> </button>
+
+</div>
+    </div>
+</div>
+</body>
+</html>
