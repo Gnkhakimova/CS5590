@@ -1,4 +1,17 @@
 # CS5590  
+### Lesson 4 - ICP - 4: AngularJS  
+ Calculator - implemented basic calculator using AngularJS which performs: +, -, * and / operators.  
+[LINK Task 1](https://github.com/Gnkhakimova/CS5590/tree/master/ICP4/Source/Web_Lesson4_SourceCode/ICP/Calculator)   
+![alt text](https://github.com/Gnkhakimova/CS5590/blob/master/ICP4/Documents/calc1.png?raw=true)  
+![alt text](https://github.com/Gnkhakimova/CS5590/blob/master/ICP4/Documents/calc2.png?raw=true)    
+![alt text](https://github.com/Gnkhakimova/CS5590/blob/master/ICP4/Documents/calc3.png?raw=true)  
+ToDo List - implemented To Do List which adds new task, marks them as completed also tasks can be deleted. Keeps track of Done and Pending Tasks.  
+[LINK Task 2](https://github.com/Gnkhakimova/CS5590/tree/master/ICP4/Source/Web_Lesson4_SourceCode/ICP/Todo)  
+![alt text](https://github.com/Gnkhakimova/CS5590/blob/master/ICP4/Documents/todo1.png?raw=true)    
+![alt text](https://github.com/Gnkhakimova/CS5590/blob/master/ICP4/Documents/todo2.png?raw=true)   
+![alt text](https://github.com/Gnkhakimova/CS5590/blob/master/ICP4/Documents/todo3.png?raw=true)  
+
+# CS5590  
 ### Lesson 3 - ICP - 3: JQuery  
 Color Picker - added colors to DIV, if clicked or hovered over color will be displayed in previewer. If Add To favorite button clicked - color gets added to favorite colors.   
 [LINK Task 1](https://github.com/Gnkhakimova/CS5590/tree/master/ICP3/Web_Lesson3_SourceCode/Web_Lesson3_SourceCode/In_Class_Exercise/PickMyFavoriteColor)
