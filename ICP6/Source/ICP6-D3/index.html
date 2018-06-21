@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style type="text/css">
+
+    .svg-container {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        padding-bottom: 100%; /* aspect ratio */
+        vertical-align: top;
+        overflow: hidden;
+    }
+    .svg-content-responsive {
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        left: 0;
+    }
+    .node {
+        cursor: pointer;
+    }
+
+    .overlay{
+        background-color:#EEE;
+    }
+
+    .node circle {
+        fill: #fff;
+        stroke: steelblue;
+        stroke-width: 5px;
+    }
+
+    .node text {
+        font-size:15px;
+        font-family:sans-serif;
+    }
+
+    .link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 1px;
+    }
+
+    .templink {
+        fill: none;
+        stroke: red;
+        stroke-width: 0px;
+    }
+
+    .ghostCircle.show{
+        display:block;
+    }
+
+    .ghostCircle, .activeDrag .ghostCircle{
+        display: none;
+    }
+
+</style>
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/04173A45-BD40-9243-A8CF-7810AAD27B7A/main.js" charset="UTF-8"></script><script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="dndTree.js"></script>
+<body>
+<div id="tree-container"></div>
+</body>
+</html>
