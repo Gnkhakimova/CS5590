@@ -1,4 +1,9 @@
 # CS5590  
+### Lesson 6 - ICP - 6: MongoDB and D3.JS  
+Please go to wiki page for links to source code and screenshots: [LINK ICP 6](https://github.com/Gnkhakimova/CS5590/wiki/ICP-6)
+
+
+# CS5590  
 ### Lesson 5 - ICP - 5: RESTful API  
 Please go to wiki page for links to source code and screenshots: [LINK ICP 5](https://github.com/Gnkhakimova/CS5590/wiki/ICP-5)
 
