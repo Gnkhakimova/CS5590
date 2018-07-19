@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gulnoza\.android\build-cache\dd8cb26a9f8939acd748ef73aa19b0dfe6807114\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\Gulnoza\Documents\UMKC\CS5590\SourceCode\Android_Sourcecode\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_e79362dea7825341e8c10cec492c86f67e7283de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gulnoza\.android\build-cache\e3bebf579a587c6c7b9186b7122f241dc96d35d6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Gulnoza\Documents\UMKC\CS5590\SourceCode\Android_Sourcecode\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_69c349b3a9e8ba9cab7eaa716adcab557f921fbd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gulnoza\.android\build-cache\5fc892e871420d0ad533478a8ffe27d9fbd42736\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\Gulnoza\Documents\UMKC\CS5590\SourceCode\Android_Sourcecode\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_df0ececa928c7b6c75dcf255be43cb638527ec5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gulnoza\.android\build-cache\6de460316d4fee3c4f29c90b3e08391a19bb38db\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Gulnoza\Documents\UMKC\CS5590\SourceCode\Android_Sourcecode\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_622b3df40967fa24f301bf4f4d5c4a032448fa33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gulnoza\.android\build-cache\af5a02a52ce9780bb27fd60e19afe82a4dfede7c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\Gulnoza\Documents\UMKC\CS5590\SourceCode\Android_Sourcecode\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_bfb2e692c8da2cf5c29517e879b957c7688366ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gulnoza\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\Gulnoza\Documents\UMKC\CS5590\SourceCode\Android_Sourcecode\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_bec4fc5aa5889b7c47247330ed52f7631d42eb16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gulnoza\.android\build-cache\90cb5cb79534a69ca6a5a2eb4e5faf4d00cc4bd0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\Gulnoza\Documents\UMKC\CS5590\SourceCode\Android_Sourcecode\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_fbcac10f507accb4b6c28a86f9f358fdd2edf71b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gulnoza\.android\build-cache\a297531d725a93ea3ea10a889909f211642debe5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\Gulnoza\Documents\UMKC\CS5590\SourceCode\Android_Sourcecode\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_a9914dba02cced01e9af7babfdaa479a12ed05c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gulnoza\.android\build-cache\e2071b625b1fa94c3a177c3224cf917fe4b50d8d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\Gulnoza\Documents\UMKC\CS5590\SourceCode\Android_Sourcecode\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_093b71897cd33e77ecccd2bae6300dd1de26c1d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gulnoza\.android\build-cache\35dee466c5445b4954df7c04feec75a597566a80\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\Gulnoza\Documents\UMKC\CS5590\SourceCode\Android_Sourcecode\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_96ae9ed942084e2a9579a735b838a547a91b64a6.jar" />
+    </item>
+
+</items>
