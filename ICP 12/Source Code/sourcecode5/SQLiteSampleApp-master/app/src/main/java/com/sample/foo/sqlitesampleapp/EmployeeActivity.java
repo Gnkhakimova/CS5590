@@ -153,8 +153,8 @@ public class EmployeeActivity extends AppCompatActivity {
             return;
         }
 
-        String filter = SampleDBContract.Employee.COLUMN_FIRSTNAME + "='" + firstname + "'";
-        database.update(SampleDBContract.Employee.TABLE_NAME,values ,filter,null);
+        String updatevalue = SampleDBContract.Employee.COLUMN_FIRSTNAME + "='" + firstname + "'";
+        database.update(SampleDBContract.Employee.TABLE_NAME,values ,updatevalue,null);
         Toast.makeText(this, "Employee: " + firstname + "'s records were updated.", Toast.LENGTH_LONG).show();
 
     }
